@@ -114,3 +114,5 @@ Next thing is to do is create a frame to hold the buttons or controls in the sam
 controls_frame = tk.Frame(root)
 controls_frame.pack(side="top", fill="x")
 ```
+
+Then, create two buttons and give them default fixed positions in screen, like this:
