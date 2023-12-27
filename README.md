@@ -73,3 +73,5 @@ When coding a desktop app using Python and Tkinter, we define the size, position
 - A color button.
 - A clear canvas button to erase all our work and start drawing again.
 - A slider to select your line width.
+
+### Creating the window
