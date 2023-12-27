@@ -12,3 +12,5 @@ def start_drawing(event):
 ```
 
 This code define a function named `start_drawing` that is meant to handle the beginning of a drawing action in a graphical user interface (GUI) application.
+
+Break down of what this function does:
