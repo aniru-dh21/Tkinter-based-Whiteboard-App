@@ -96,3 +96,5 @@ Let's break down what each part does:
 2. `root.title("Whiteboard App")`: This sets the title of the application window to "Whiteboard App." The title appears in the title bar of the window and provides a name for the application.
 
 3. `canvas = tk.Canvas(root, bg="white")`: This line creates a drawing canvas within the main application window. The canvas is a white rectangular area where users can draw. It is initialized with a white background color. The canvas is assigned to the variable `canvas`.
+
+4. `canvas.pack(fill="both", expand=True)`:
