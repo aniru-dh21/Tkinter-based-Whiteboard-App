@@ -26,3 +26,11 @@ Break down of what this function does:
 So when this function us called (usually in response to a mouse click event), it sets the `is_drawing` flag to `True` to indicate the a drawing action is in progress and records the initial position of the mouse cursor using the `prev_x` and `prev_y` variables. These variables are then used in the subsequent drawing actions to connect the starting point with the current cursor position to create a drawing on the canvas.
 
 Next up, the function to actually draw on the whiteboard, like this:
+``` python
+def draw(event):
+    global is_drawing, prev_x, prev_y
+    if is_drawing:
+        current_x, current_y = event.x, event.y
+        canvas.create_line(prev_x, prev_y, current_x, current_y, fill=drawing_color, width=line_width, capstyle=tk.ROUND, smooth=True)
+        prev_x, prev_y = current_x, current_y
+```
