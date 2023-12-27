@@ -67,5 +67,6 @@ Now we've completed the functions. Next we'll use Tkinter to create the window f
 GUI stands for Graphical User Interface, representing the windows you interact with on your computer, smartphone tablets, and so on.
 
 When coding a desktop app using Python and Tkinter, we define the size, position, buttons, and any other elements we want for our program. In this case, we need to create the following assets:
-- A title for app
-- A white blank canvas for drawing
+- A title for app.
+- A white blank canvas for drawing.
+- A frame to hold the controls of your app in the same line.
