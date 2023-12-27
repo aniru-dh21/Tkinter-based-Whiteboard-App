@@ -75,3 +75,17 @@ When coding a desktop app using Python and Tkinter, we define the size, position
 - A slider to select your line width.
 
 ### Creating the window
+
+``` python
+root = tk.Tk()
+root.title("Whiteboard App")
+
+canvas = tk.Canvas(root, bg="white")
+canvas.pack(fill="both", expand=True)
+
+is_drawing = False
+drawing_color = "black"
+line_width = 2
+
+root.geometry("800x600")
+```
