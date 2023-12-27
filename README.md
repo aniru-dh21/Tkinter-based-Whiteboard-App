@@ -102,3 +102,5 @@ Let's break down what each part does:
 5. `is_drawing = False`: This initializes a variable `is_drawing` to `False`. It's typically used to track whether the user is currently drawing or not. When the user starts drawing, this variable is set to `True` to indicate an ongoing drawing action.
 
 6. `drawing_color = "black"`: This initializes a variable `drawing_color` to "block". It specifies the color that will be used for drawing on the canvas. You can change this color as needed to draw with different colors with the functions we will add.
+
+7. `line_width = 2`:
