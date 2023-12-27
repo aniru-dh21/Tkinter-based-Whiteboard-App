@@ -94,3 +94,5 @@ Let's break down what each part does:
 1. `root = tk.Tk()`: This line creates the main application window. It initializes a Tkinter application and assigns it to the variable `root`. This window serves as the container for all the graphical elements of the whiteboard application.
 
 2. `root.title("Whiteboard App")`: This sets the title of the application window to "Whiteboard App." The title appears in the title bar of the window and provides a name for the application.
+
+3. `canvas = tk.Canvas(root, bg="white")`:
