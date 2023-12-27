@@ -105,4 +105,4 @@ Let's break down what each part does:
 
 7. `line_width = 2`: This initializes a variable `line_width` to 2. It specifies the width of the lines or strokes used for drawing. You can adjust this value to change the thickness of the lines.
 
-8. `root.geometry("800x600")`:
+8. `root.geometry("800x600")`: This sets the initial size of the application window to 800 pixels in width and 600 pixels in height. It defines the dimensions of the window when it is first displayed but you can resize your window and with it, your canvas space.
