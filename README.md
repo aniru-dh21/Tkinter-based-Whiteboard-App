@@ -59,3 +59,5 @@ def change_line_width(value):
     global line_width
     line_width = int(value)
 ```
+
+Now we've completed the functions. Next we'll use Tkinter to create the window for your app and buttons for choosing colors, clearing the whiteboard, and selecting your line width.
