@@ -71,3 +71,4 @@ When coding a desktop app using Python and Tkinter, we define the size, position
 - A white blank canvas for drawing.
 - A frame to hold the controls of your app in the same line.
 - A color button.
+- A clear canvas button to erase all your work and start drawing again.
