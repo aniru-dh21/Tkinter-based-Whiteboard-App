@@ -89,3 +89,5 @@ line_width = 2
 
 root.geometry("800x600")
 ```
+
+Let's break down what each part does:
