@@ -22,3 +22,5 @@ Break down of what this function does:
 3. `is_drawing = True`: This line sets the `is_drawing` variable to `True`. This variable is typically used to indicate whether a drawing action is in progress. By setting it to `True`, the function signals that a drawing action has started.
 
 4. `prev_x, prev_y = event.x, event.y`: This line captures the current coordinates of the mouse cursor when the `start_drawing` function is called. It assigns the `x` and `y` coordinates of the mouse cursor at that moment to the `prev_x` and `prev_y` variables. These variables are used to track the starting point of the drawing action.
+
+So when this function us called (usually in response to a mouse click event), it sets the `is_drawing` flag to `True` to indicate the a drawing action is in progress and records the initial position of the mouse cursor using the `prev_x` and `prev_y` variables. These variables are then used in the subsequent drawing actions to connect the starting point with the current cursor position to create a drawing on the canvas.
