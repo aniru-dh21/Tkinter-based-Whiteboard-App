@@ -68,3 +68,4 @@ GUI stands for Graphical User Interface, representing the windows you interact w
 
 When coding a desktop app using Python and Tkinter, we define the size, position, buttons, and any other elements we want for our program. In this case, we need to create the following assets:
 - A title for app
+- A white blank canvas for drawing
