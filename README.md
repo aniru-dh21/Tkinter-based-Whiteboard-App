@@ -70,3 +70,4 @@ When coding a desktop app using Python and Tkinter, we define the size, position
 - A title for app.
 - A white blank canvas for drawing.
 - A frame to hold the controls of your app in the same line.
+- A color button.
