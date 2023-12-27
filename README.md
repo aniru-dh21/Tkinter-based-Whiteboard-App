@@ -52,3 +52,5 @@ def change_pen_color():
     if color:
         drawing_color = color
 ```
+
+For the last functionality, create a function to adjust the line width, allowing you to choose the thinkness of your lines. Here's how to implement it:
