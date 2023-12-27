@@ -16,3 +16,5 @@ This code define a function named `start_drawing` that is meant to handle the be
 Break down of what this function does:
 
 1. `def start_drawing(event)`: This line defines a function named `start_drawing` that takes an event as its parameter. In GUI programming, events are actions or occurences (like mouse clicks, key presses and so on) that trigger specific function when they happen.
+
+2. `global is_drawing, prev_x, prev_y`:
