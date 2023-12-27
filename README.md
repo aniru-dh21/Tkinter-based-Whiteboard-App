@@ -108,3 +108,5 @@ Let's break down what each part does:
 8. `root.geometry("800x600")`: This sets the initial size of the application window to 800 pixels in width and 600 pixels in height. It defines the dimensions of the window when it is first displayed but you can resize your window and with it, your canvas space.
 
 ### Building Navbar and Controls
+
+Next thing is to do is create a frame to hold the buttons or controls in the same line. This is the most comfortable way to have buttons, and it's kind of a navbar.
