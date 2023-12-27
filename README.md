@@ -99,4 +99,4 @@ Let's break down what each part does:
 
 4. `canvas.pack(fill="both", expand=True)`: This configures the canvas to fill both the horizontal and vertical space of the application window. It allows the canvas to expand and occupy the entire window.
 
-5. `is_drawing = False`:
+5. `is_drawing = False`: This initializes a variable `is_drawing` to `False`. It's typically used to track whether the user is currently drawing or not. When the user starts drawing, this variable is set to `True` to indicate an ongoing drawing action.
