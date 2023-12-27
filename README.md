@@ -42,7 +42,7 @@ def stop_drawing(event):
     is_drawing = False
 ```
 
-## Building the Color Changing Feature
+### Building the Color Changing Feature
 
 Now that after having primary drawing functionality, the next step is to implement the color-changing function. This is a simple function that calls the `askcolor` module, which is already part of Tkinter, like this:
 ``` python
@@ -69,6 +69,7 @@ GUI stands for Graphical User Interface, representing the windows you interact w
 When coding a desktop app using Python and Tkinter, we define the size, position, buttons, and any other elements we want for our program. In this case, we need to create the following assets:
 - A title for app.
 - A white blank canvas for drawing.
-- A frame to hold the controls of your app in the same line.
+- A frame to hold the controls of our app in the same line.
 - A color button.
-- A clear canvas button to erase all your work and start drawing again.
+- A clear canvas button to erase all our work and start drawing again.
+- A slider to select your line width.
