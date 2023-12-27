@@ -54,3 +54,8 @@ def change_pen_color():
 ```
 
 For the last functionality, create a function to adjust the line width, allowing you to choose the thinkness of your lines. Here's how to implement it:
+``` python
+def change_line_width(value):
+    global line_width
+    line_width = int(value)
+```
