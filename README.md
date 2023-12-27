@@ -36,3 +36,8 @@ def draw(event):
 ```
 
 A drawing is essentially a combination of points filled with colors, functioning as a vector. To work as a vector, it needs to have a starting and ending point. So after creating a function to start drawing, it'll need a function to stop drawing, like this:
+``` python
+def stop_drawing(event):
+    global is_drawing
+    is_drawing = False
+```
