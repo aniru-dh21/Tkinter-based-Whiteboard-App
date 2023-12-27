@@ -98,3 +98,5 @@ Let's break down what each part does:
 3. `canvas = tk.Canvas(root, bg="white")`: This line creates a drawing canvas within the main application window. The canvas is a white rectangular area where users can draw. It is initialized with a white background color. The canvas is assigned to the variable `canvas`.
 
 4. `canvas.pack(fill="both", expand=True)`: This configures the canvas to fill both the horizontal and vertical space of the application window. It allows the canvas to expand and occupy the entire window.
+
+5. `is_drawing = False`:
