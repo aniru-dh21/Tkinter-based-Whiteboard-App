@@ -1,3 +1,5 @@
-# Tkinter-based-Whiteboard-App
+# Whiteboard App with Python and Tkinter
 
 A white board tool written in Python with Tkinter.
+
+## 
