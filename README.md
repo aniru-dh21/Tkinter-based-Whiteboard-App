@@ -43,3 +43,5 @@ def stop_drawing(event):
 ```
 
 ## Building the Color Changing Feature
+
+Now that after having primary drawing functionality, the next step is to implement the color-changing function. This is a simple function that calls the `askcolor` module, which is already part of Tkinter, like this:
