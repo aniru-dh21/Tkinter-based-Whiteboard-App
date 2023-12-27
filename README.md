@@ -92,3 +92,5 @@ root.geometry("800x600")
 
 Let's break down what each part does:
 1. `root = tk.Tk()`: This line creates the main application window. It initializes a Tkinter application and assigns it to the variable `root`. This window serves as the container for all the graphical elements of the whiteboard application.
+
+2. `root.title("Whiteboard App")`:
