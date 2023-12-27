@@ -104,3 +104,5 @@ Let's break down what each part does:
 6. `drawing_color = "black"`: This initializes a variable `drawing_color` to "block". It specifies the color that will be used for drawing on the canvas. You can change this color as needed to draw with different colors with the functions we will add.
 
 7. `line_width = 2`: This initializes a variable `line_width` to 2. It specifies the width of the lines or strokes used for drawing. You can adjust this value to change the thickness of the lines.
+
+8. `root.geometry("800x600")`:
