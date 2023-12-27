@@ -19,4 +19,4 @@ Break down of what this function does:
 
 2. `global is_drawing, prev_x, prev_y`: This line declares that the variables `is_drawing`, `prev_x` and `prev_y` are global variables. In Python, global variables are accessible from anywhere in the code and can be modified within functions. This line ensures that these variables are accessible within the function.
 
-3. `is_drawing = True`:
+3. `is_drawing = True`: This line sets the `is_drawing` variable to `True`. This variable is typically used to indicate whether a drawing action is in progress. By setting it to `True`, the function signals that a drawing action has started.
