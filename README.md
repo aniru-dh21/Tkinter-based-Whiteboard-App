@@ -34,3 +34,5 @@ def draw(event):
         canvas.create_line(prev_x, prev_y, current_x, current_y, fill=drawing_color, width=line_width, capstyle=tk.ROUND, smooth=True)
         prev_x, prev_y = current_x, current_y
 ```
+
+A drawing is essentially a combination of points filled with colors, functioning as a vector. To work as a vector, it needs to have a starting and ending point. So after creating a function to start drawing, it'll need a function to stop drawing, like this:
