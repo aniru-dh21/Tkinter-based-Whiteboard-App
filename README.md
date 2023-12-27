@@ -41,3 +41,5 @@ def stop_drawing(event):
     global is_drawing
     is_drawing = False
 ```
+
+## Building the Color Changing Feature
