@@ -110,3 +110,7 @@ Let's break down what each part does:
 ### Building Navbar and Controls
 
 Next thing is to do is create a frame to hold the buttons or controls in the same line. This is the most comfortable way to have buttons, and it's kind of a navbar.
+``` python
+controls_frame = tk.Frame(root)
+controls_frame.pack(side="top", fill="x")
+```
