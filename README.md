@@ -116,3 +116,10 @@ controls_frame.pack(side="top", fill="x")
 ```
 
 Then, create two buttons and give them default fixed positions in screen, like this:
+``` python
+color_button = tk.Button(controls_frame, text="Change Color", command=change_pen_color)
+clear_button = tk.Button(controls_frame, text="Clear Canvas", command=lambda: canvas.delete("all"))
+
+color_button.pack(side="left", padx=5, pady=5)
+clear_button.pack(side="left", padx=5, pady=5)
+```
