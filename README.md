@@ -137,3 +137,5 @@ line_width_slider.pack(side="left", padx=5, pady=5)
 1. `line_width_label = tk.Label(controls_frame, text="Line Width:`: This line creates a label widget with the text "Line Width." The label is intended to display text to describe the purpose of the following slider (which controls the line width). It is placed within the `controls_frame` widget.
 
 2. `line_width_label.pack(side="left", padx=5, pady=5)`: This line configures the label's placement within the `controls_frame`.
+
+3. `side="left"`: This sets the label to be placed on the left side of the `controls_frame`. It ensures that the label is aligned to the left.
