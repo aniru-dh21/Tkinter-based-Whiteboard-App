@@ -149,3 +149,24 @@ line_width_slider.pack(side="left", padx=5, pady=5)
 7. `line_width_slider.set(line_width)`: This sets the initial position of the slider to the value stored in the `line_width` variable, which is initialized earlier in the code. This ensures that the slider starts at the default line width.
 
 8. `line_width_slider.pack(side="left", padx=5, pady=5)`: This line configures the slider's placement within the `controls_frame`. It is placed on the left side, and padding is added to create spacing around the slider.
+
+### Connnecting features with GUI
+
+But if we press the buttons or move the slider for line width, it won't work because you still need to bind or "link" the functions coded at the beginning.
+
+For that:
+``` python
+canvas.bind("<Button-1>", start_drawing)
+canvas.bind("<B1-Motion>", draw)
+canvas.bind("<ButtonRelease-1>", stop_drawing)
+
+root.mainloop()
+```
+
+1. `canvas.bind("<Button-1>", start_drawing)`: When the left mouse button is clicked on the canvas, it triggers the `start_drawing` function.
+
+2. `canvas.bind("<B1-Motion>", draw)`: While the left mouse button is held down and the mouse is moved on the canvas, it triggers the draw function.
+
+3. `canvas.bind("<ButtonRelease-1>", stop_drawing)`: When the left mouse button is released (button released event), it triggers the `stop_drawing` function.
+
+4. And finally, `root.mainloop()` starts the main loop of the application, allowing it to respond to user interactions and events.
