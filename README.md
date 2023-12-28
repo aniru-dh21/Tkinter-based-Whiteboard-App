@@ -125,3 +125,11 @@ clear_button.pack(side="left", padx=5, pady=5)
 ```
 
 The application already have the two main buttons for app, one to change colors and one to clear the canvas. The last control we need to create is slider for the line width function. This is the following code:
+``` python
+line_width_label = tk.Label(controls_frame, text="Line Width:")
+line_width_label.pack(side="left", padx=5, pady=5)
+
+line_width_slider = tk.Scale(controls_frame, from_=1, to=10, orient="horizontal", command=lambda val: change_line_width(val))
+line_width_slider.set(line_width)
+line_width_slider.pack(side="left", padx=5, pady=5)
+```
