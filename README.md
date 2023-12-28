@@ -139,3 +139,13 @@ line_width_slider.pack(side="left", padx=5, pady=5)
 2. `line_width_label.pack(side="left", padx=5, pady=5)`: This line configures the label's placement within the `controls_frame`.
 
 3. `side="left"`: This sets the label to be placed on the left side of the `controls_frame`. It ensures that the label is aligned to the left.
+
+4. `padx=5`: It adds horizontal padding of 5 pixels around the label, creating some spacing.
+   
+5. `pady=5`: It adds vertical padding of 5 pixels around the label, creating spacing.
+
+6. `line_width_slider = tk.Scale(controls_frame, from_=1, to=10, orient="horizontal", command=lambda val: change_line_width(val))`: This line creates a horizontal slider widget (Scale widget) that allows the userto select a line width. The slider ranges from a minimum value of 1 (`from_=1`) to a maximum value of 10 (`to=10`). The `command` option is set to call the `change_line_width` function with the selected value whenever the slider position changes.
+
+7. `line_width_slider.set(line_width)`: This sets the initial position of the slider to the value stored in the `line_width` variable, which is initialized earlier in the code. This ensures that the slider starts at the default line width.
+
+8. `line_width_slider.pack(side="left", padx=5, pady=5)`: This line configures the slider's placement within the `controls_frame`. It is placed on the left side, and padding is added to create spacing around the slider.
