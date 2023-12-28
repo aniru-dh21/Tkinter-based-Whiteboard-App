@@ -123,3 +123,5 @@ clear_button = tk.Button(controls_frame, text="Clear Canvas", command=lambda: ca
 color_button.pack(side="left", padx=5, pady=5)
 clear_button.pack(side="left", padx=5, pady=5)
 ```
+
+The application already have the two main buttons for app, one to change colors and one to clear the canvas. The last control we need to create is slider for the line width function. This is the following code:
